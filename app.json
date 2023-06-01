@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "atlasadv",
+    "slug": "atlasadv",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-31stshdvrmcfarag.us.auth0.com",
+          "customScheme": "buddyboy"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.kvanbibber.atlasadv",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kvanbibber.atlasadv"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
